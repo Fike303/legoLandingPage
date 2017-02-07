@@ -1,0 +1,151 @@
+
+
+.nav {
+	background-color: #ffcc00; /* lego yellow */
+}
+
+.container-fluid {
+    margin: 20px;
+}
+
+.brand {
+    height: 100px;
+    width: 100px;
+}
+
+.line{
+	line-height: 50%;
+}
+
+
+.border a, .dec{
+	text-decoration: underline;
+}
+
+hr{
+	border-top: 1.5px solid black;
+}
+
+.contact {
+	margin-left: 100px;
+}
+
+.search {
+	margin-right: 10px;
+}
+
+
+.brdr {
+	border-right: 1px solid #000000;
+}
+
+/* removes right-border around nav items at xs size */
+@media only screen and (max-width: 768px) {
+	.brdr{
+		border-style: none;
+		}
+}
+
+.slideshow {
+	height: 300px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* carousel-indicators are the round circle indicators */
+.carousel-indicators li {
+	background-color: blue;
+}
+.carousel-indicators .active {
+	background-color: red;
+}
+
+
+.shrink {
+    height: 300px;
+}
+
+/* center the images in the carousel */
+.carousel img {
+    margin: auto;
+}
+
+.under {
+    background-color: #ffcc00;
+    z-index: -2;
+}
+
+
+/* trick from the internet to make all 3 columns same height without losing responsiveness--
+.row and .col-md-4 entries below are required*/
+.row{
+    overflow: hidden;
+}
+.col-md-4{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow {
+	background-color: #ffcc00;
+}
+
+.story {
+    height: 70px;
+}
+
+.box {
+    border-radius: 5px;
+}
+
+.blue {
+	background-color: blue;
+}
+
+form {
+    margin: 0;
+}
+
+.subscribe{
+    color: #ffcc00;
+}
+
+.box{
+    width: 300px;
+}
+
+/*triple section border top and bottom only */
+.border{
+	border-top: 10px solid #ffcc00; /*lego yellow*/
+	border-bottom: 10px solid #ffcc00;/*lego yellow*/
+	margin-top: 0;
+}
+
+/*triple section border for middle section left and right only */
+@media only screen and (min-width: 992px) {
+	.sides{
+		border-left: 10px solid #ffcc00;
+		border-right: 10px solid #ffcc00;
+	}
+}
+
+.letter {
+	height: 200px; /*width not stated so that it can scale itself */
+	border: 3px solid #ffcc00;
+}
+
+.small {
+	height: 120px;
+	width: 105px;
+	margin-right: 10px;
+	background-color: red;
+}
+
+.push{
+	margin-top: 10px;
+}
+

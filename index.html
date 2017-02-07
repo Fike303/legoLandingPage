@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="lego.css">
+
+    <title>Legos Are Awesome!</title>
+    
+</head>
+
+
+<body>
+
+<div class = "container-fluid">  <!--full width of screen -->
+	<div class = "row">
+		<div class = "col-md-12 brand">
+			<img class="brand" src="lego-logo.png">
+		</div>
+	</div> <!-- end row -->
+</div> <!-- end div .container -->
+
+
+<nav class="container-fluid navbar navbar-default">
+	<div class="row">
+      <ul class="col-sm-12 nav navbar-nav nav-height">
+        <li class="brdr"><a href="minifigs.html">Lego Minifigures</a></li> 
+      	<li class="brdr nav-height"><a href="city.html">Lego City Collection</a></li>
+        <li class="brdr"><a href="star-wars.html">Lego Star Wars Collection</a></li>
+        <li class="brdr"><a href="potter.html">Lego Harry Potter Collection</a></li>
+        <li class="brdr"><a href="ninja.html">Lego Ninjago Collection</a></li>
+        <li class="brdr"><a href="holiday.html">Lego Holiday Collection</a></li>
+        <li class="brdr"><a href="super.html">Lego Super Hero Collection</a></li>
+        <li><a href="creator.html">Lego Creator Collection</a></li>
+      </ul>
+     </div>
+</nav>
+
+
+<div class="container">
+    
+<div class="row">
+    <div class="col-md-7 slideshow">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner shrink">
+            <div class="item active">
+                <img src="lego-hotdog.jpg" alt="hotdog man">
+            </div>
+            <div class="item">
+                <img src="lego-zombie.jpg" alt="zombie">
+            </div>
+            <div class="item">
+                <img src="lego-ninja.jpg" alt="ninja">
+            </div>
+        </div>
+            
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+        </div>
+    </div>
+    
+		<div class ="col-md-5">
+			<h3>As of 2017, more than 600 billion Lego pieces have been created</h3>
+			<p>Legos were first created in 1949, and since then Legos have become everyone's favorite building block toy. There are Lego sets and minifigures from all of your favorite movies and books including Star Wars and Harry Potter -- and you should plan to visit one of the six Legoland amusement parks around the world.</p>
+			<a href="readmore.html" class="dec">Read More</a>
+		</div>
+</div>
+</div>
+<!-- end slideshow .container -->
+
+
+
+<!-- Triple column section -->
+<div class="container-fluid under">
+	<div class="row border">
+
+		<article class="col-md-4 red">
+			<h4 class="push">We get letters!   |   March, 2017</h4>
+            <hr>
+			<h3>All of my friends love to play with Legos</h3>
+			<img class=" img-responsive letter" src="legoWheelchair.jpg">
+			<p>Dear Lego, <br> My name is Sally and I am 7 years old.  <br> I got the "City--Fun in the Park" Lego set for Christmas this year and I really love all of the different people that come in the set.  My favorite is the man with the wheelchair because he comes with a dog that looks just like my dog, Rusty.<br>  Rusty is my family's German Shepherd and I play with him every day, but he can't stick around when I am playing with my Legos with my friends because he might try to eat some of the Lego blocks and...
+            <a href="readmore.html" class="pull-right">Read More</a>
+			</p>
+            <img class=" img-responsive letter" src="lego-dog.jpg">
+		</article>
+        
+
+		<div class="col-md-4 sides yellow">
+			<h4 class="push">From the Blog</h4>
+            <hr>
+            <h3>Add your own blog entry today!</h3>
+            <form>
+                <input class="box" id="blogTitle" name="blogTitle" type="text" placeholder="Blog Title"><br>
+                <input class="box" id="bloggerName" name="bloggerName" type="text" placeholder="Your First Name"><br>
+                <input class="box story" id="blogContent" name="blogContent" type="text" placeholder="Tell everyone your story..."><br><br>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <input type="reset" value="Clear" class="btn btn-default">
+            </form>
+            
+            <hr>
+            
+            <!-- replicate the form of this blog entry to be used for new blog entries -->
+            <article id="blogForm">
+			<h4>I have all 7 Harry Potter books!</h4>
+			<p>by Lindsey</p>
+				<img class="small" src="lego-potter.png" align="left">
+                <p>My friend Jasper told me that if you recite this spell, you will get all of the Lego sets that you want: "Lego ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua."  So right before my birthday, I said these magic words and you'll never guess what happened next...</p><a href="readmore.html" class="pull-right">Read More</a>
+            </article>
+            <br>
+			<hr>
+
+			<h4>Star Wars is the best!</h4>
+			<p>by Jimmy</p>
+			<article>
+				<img class="small" src="lego-stormtrooper.jpg" align="left"><p>
+                I saw the Stars Wars movie called Rogue One with my dad last week and it was amazing.  Rogue One is all about how everyone is trying to steal the plans to the Death Star.  I hope that I can get some of the Rogue One Lego sets soon.  My friend Billy has Krennic's Imperial Shuttle and he told me that...</p><a href="readmore.html" class="pull-right">Read More</a>
+			</article>
+			<br>
+			<br>
+		</div>
+
+		<div class="col-md-4 blue">
+			<div class="subscribe">
+            <h4 class="push">Get the Lego Newsletter!</h4>
+            <hr>
+            <h3>Sign Up Today!</h3>
+            <br>
+			<p>Every month we'll send you exciting news about Legos.</p>
+			<p>You'll also receive a special treat on your birthday!  <br>
+            Just fill in your information below and we'll take care of the rest.</p>
+            <br>
+            </div>
+            
+            <form class="info">
+			<input class="box" type="text" placeholder="Your Name">
+            <br><br>
+			<input class="box" type="text" placeholder="Your Email Address">
+            <br><br>
+			<input class="box" type="text" placeholder="What month were you born in?">
+            <br><br><br>
+			<button type="button" class="btn btn-default">Submit</button>
+            <input type="reset" value="Clear" class="btn btn-default">
+                <br><br><br>
+            </form>
+            <img class=" img-responsive letter" src="happy.jpg">
+        </div>
+    </div>
+<!-- end triple column section container-->
+    
+    
+    <hr>
+    
+<!--footer section -->
+
+<div class = "container-fluid">  <!--full width of screen -->
+	<div class = "row">
+		<div class = "col-md-6">
+			<footer>
+				<p>
+					&copy; 2017 Lego &nbsp;  |  &nbsp;  Legos are proudly designed in Denmark&nbsp;  |  &nbsp;  800-835-4386
+                </p>
+				<p>
+				Legos started in Denmark and are now made all over the world in places like Hungary, Mexico, China and the Czech Republic.
+                </p>
+			</footer>
+		</div>
+        <div class = "col-md-6">
+            <img class="brand" src="lego-logo.png">
+        </div>
+	</div>
+</div>
+
+</body>
+</html>
